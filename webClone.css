@@ -1,0 +1,211 @@
+.navbar{
+  background:  #F3CFC6;
+}
+.socials{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  top: 40%;
+  left: 5px;
+}
+.navbar-brand{
+  color: black;
+}
+#mainnav{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+#brandname{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#mainnav .nav-link{
+  color: red;
+  display: flex;
+}
+nav ul{
+  display: flex;
+  justify-content:space-around;
+  width: 80%;
+}
+#mainnav .nav-link:hover{
+  color: white;
+}
+.hero{
+  height: 100vh;
+  display: flex;
+}
+#hero-title{
+margin-top: 50%;
+color: darkblue;
+margin-left: 50px;
+}
+#hero-title h1{
+  text-align: center;
+  font-size: 5rem;
+}
+#hero-title p{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#hero-image{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#about button{
+  margin-left: 40%;
+}
+#price h1{
+  font-size: 1rem;
+  font-weight: 700;
+}
+#price .card-body{
+  background:#F3CFC6;
+}
+#price #third{
+
+  height: 530px;
+}
+#price .img-thumbnail{
+  border: 1px solid red;
+}
+.client{
+  padding: 100px 0;
+}
+#client-text{
+  text-align: center;
+}
+#client-text h1{
+  font-size: 1.5rem;
+}
+#prev{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+#next{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer{
+  text-align: right;
+}
+footer p {
+  padding: 10px;
+  font-size: 1rem;
+}
+@media (max-width: 1024px) {
+  #mainnav .nav-link{
+    font-size: 2.5rem;
+  }
+  #brandname{
+    font-size: 2.5rem;
+  }
+  #search{
+    font-size: 2rem;
+  }
+
+  .hero{
+    height: 100vh;
+  }
+  #hero-title{
+  margin-top: 20%;
+  margin-left: 250px;
+  }
+  #hero-title h1{
+    text-align: center;
+    font-size: 7rem;
+    margin-bottom: -5px;
+  }
+  #hero-title p{
+    text-align: center;
+    font-size: 3rem;
+  }
+  #hero-image{
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    transform: scale(1.5);
+  }
+  #about-image{
+    transform: scale(1);
+    margin-bottom: 200px;
+    order: 2;
+  }
+  #about{
+    font-size: 3.5rem;
+    margin-left: 50px;
+    margin-top: -30px;
+    order: 1;
+  }
+  #about h1{
+    font-size: 5rem;
+    font-weight: 800;
+  }
+  #about button{
+    font-size: 4rem;
+    margin: 0 200px;
+    padding: 5px 20px;
+    margin-bottom: 200px;
+  }
+  #price h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  #price .card-body{
+    background:#F3CFC6;
+  }
+
+  #price .img-thumbnail{
+    padding: 20px;
+    border: 10px solid red;
+  }
+
+  #work-1{
+    order: 3;
+  }
+  #work-1 a{
+    font-size: 50px;
+    margin-left: 130px;
+  }
+  #work-2{
+    order: 1;
+  }
+  #work-3{
+    order: 2;
+  }
+  #prev{
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    margin-top: 1000px;
+
+  }
+  #next{
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    margin-top: 1000px;
+  }
+
+  .socials{
+    z-index: 10;
+
+  }
+  .socials a{
+    font-size: 80px;
+  }
+  footer p{
+    font-size: 40px;
+    text-align: right;
+  }
+}

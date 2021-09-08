@@ -1,0 +1,149 @@
+@media (min-width:1024px) and (max-width:1366px) {
+  #hero-title{
+  margin-top: 350px;
+  color: darkblue;
+  margin-left: 50px;
+  }
+  #hero-title h1{
+    width: 500px;
+    text-align: center;
+    font-size: 6rem;
+  }
+  #hero-title p{
+    width: 500px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  #hero-image{
+    margin-top: -250px;
+    margin-left: 550px;
+    transform: scale(1.5);
+  }
+  #about{
+    font-size: 3.5rem;
+    margin-left: 50px;
+    margin-top: -300px;
+
+  }
+  #about h1{
+    font-size: 4rem;
+    width: 500px;
+    font-weight: 800;
+  }
+  #about p{
+    width: 500px;
+    font-size: 2rem;
+  }
+  #about button{
+    font-size: 2rem;
+    width: 250px;
+    margin-left: 120px;
+  }
+  #about-image{
+    transform: scale(1.2);
+    padding: 200px;
+    margin-top: -50px;
+  }
+  #price{
+display: block;
+
+
+  }
+  #price .price-body{
+
+    /* border: 10px solid blue; */
+  }
+  #one{
+    display: flex;
+    width: 50vw;
+    border: 10px solid black;
+
+  }
+}
+#two{
+  position: relative;
+  right: -250px;
+  width: 50vw;
+  border: 10px solid black;
+}
+#three{
+  position: relative;
+  right: -490px;
+  width: 50vw;
+  border: 10px solid black;
+}
+  #price .img-thumbnail{
+    padding: 20px;
+    border: 10px solid green;
+
+  }
+  #three #third{
+    height: 710px;
+  }
+
+  #work-1{
+    position: relative;
+    left: 35%;
+    width: 100vw;
+  }
+  #work-1 h1{
+    font-size: 4rem;
+    width: 100%;
+  }
+  #work-1 p{
+    font-size: 3rem;
+    width: 100%;
+  }
+  #work-1 a{
+    font-size: 4rem;
+    margin-left: 30%;
+  }
+
+  #work-2{
+    position: relative;
+    left: 35%;
+    width: 100vw;
+    border: 10px solid black;
+
+  }
+  #work-3{
+    position: relative;
+    left: 35%;
+    width: 100vw;
+  }
+  .client{
+    margin: 200px 250px;
+  }
+  #client-text{
+    text-align: center;
+
+  }
+  #client-text h1{
+    font-size: 5rem;
+    width: 1000px;
+  }
+  #client-text p{
+    font-size: 3rem;
+    width: 1000px;
+  }
+  #prev{
+    display: flex;
+    font-size: 100px;
+    margin-top: 400px;
+    margin-left: -120px;
+  }
+  #next{
+    display: flex;
+    font-size: 100px;
+    margin-top: 400px;
+    margin-left: 800px;
+  }
+
+  footer p{
+    padding: 20px;
+    margin-left: 1000px;
+  }
+
+
+}
